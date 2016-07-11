@@ -5,6 +5,11 @@
 //  Created by 李鑫 on 16/7/05.
 //  Copyright (c) 2015年 李鑫. All rights reserved.
 
+/*
+  Reverse digits of an integer.
+  Example1: x = 123, return 321
+  Example2: x = -123, return -321
+*/
 #ifndef LeetCode_solution_7_h
 #define LeetCode_solution_7_h
 
