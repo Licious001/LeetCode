@@ -10,14 +10,15 @@
 //#include "solution_2.h"
 //#include "solution_3.h"
 
-#include "solution_13.h"
+#include "solution_15.h"
 
 int main(int argc, char * argv[]){
-    Solution s;
+    Solution* s = new Solution();
     //string input = "civilwartestingwhetherthatnaptionoranynartionsoconceivedandsodedicatedcanlongendureWeareqmetonagreatbattlefiemldoftzhatwarWehavecometodedicpateaportionofthatfieldasafinalrestingplaceforthosewhoheregavetheirlivesthatthatnationmightliveItisaltogetherfangandproperthatweshoulddothisButinalargersensewecannotdedicatewecannotconsecratewecannothallowthisgroundThebravelmenlivinganddeadwhostruggledherehaveconsecrateditfaraboveourpoorponwertoaddordetractTgheworldadswfilllittlenotlenorlongrememberwhatwesayherebutitcanneverforgetwhattheydidhereItisforusthelivingrathertobededicatedheretotheulnfinishedworkwhichtheywhofoughtherehavethusfarsonoblyadvancedItisratherforustobeherededicatedtothegreattdafskremainingbeforeusthatfromthesehonoreddeadwetakeincreaseddevotiontothatcauseforwhichtheygavethelastpfullmeasureofdevotionthatweherehighlyresolvethatthesedeadshallnothavediedinvainthatthisnationunsderGodshallhaveanewbirthoffreedomandthatgovernmentofthepeoplebythepeopleforthepeopleshallnotperishfromtheearth";
     int input1;
-    string input2;
-    cin >> input1 >> input2; 
-    cout << s.romanToInt(input2) << endl;
+    vector<int> input2;
+    cin >> input1;
+    input2.push_back(input1);
+    s->threeSum(input2);// << endl;
     return 0;
 }
